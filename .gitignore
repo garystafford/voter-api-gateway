@@ -1,0 +1,4 @@
+*.tfstate*
+
+**.DS_Store**
+*.log
