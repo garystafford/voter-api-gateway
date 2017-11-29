@@ -1,6 +1,6 @@
 ```bash
-docker build -t garystafford/voter-api-gateway:kub-aks .
-docker push garystafford/voter-api-gateway:kub-aks
+docker build -t garystafford/voter-api-gateway:kub-aks-0.5.1 .
+docker push garystafford/voter-api-gateway:kub-aks-0.5.1
 ```
 
 ```bash
