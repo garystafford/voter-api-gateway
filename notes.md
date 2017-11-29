@@ -1,6 +1,6 @@
 ```bash
-docker build -t garystafford/voter-api-gateway:latest .
-docker push garystafford/voter-api-gateway:latest
+docker build -t garystafford/voter-api-gateway:rabbitmq .
+docker push garystafford/voter-api-gateway:rabbitmq
 ```
 
 ```bash
