@@ -17,3 +17,14 @@ backend voter
     balance roundrobin
     server service_vip voter:8080 check
 ```
+
+```bash
+docker build -t garystafford/voter-api-gateway:kub-aks-0.5.2 .
+docker push garystafford/voter-api-gateway:kub-aks-0.5.2
+```
+
+```bash
+docker service create \
+  --name voter-api-gateway \
+  --port 8080:8080/tcp garystafford/voter-api-gateway:kub-aks
+```
