@@ -4,7 +4,7 @@ ENV REFRESHED_AT 2017-12-02
 
 RUN apt-get update \
   && apt-get upgrade -y \
-  && apt-get install certbot -y
+  && apt-get install certbot curl -y
 
 COPY haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
-EXPOSE 8080, 8443, 8001
+EXPOSE 8080 8443 8081

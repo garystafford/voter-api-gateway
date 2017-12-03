@@ -21,8 +21,8 @@ backend voter
 Build Image
 
 ```bash
-docker build -t garystafford/voter-api-gateway:kub-aks-0.5.2 .
-docker push garystafford/voter-api-gateway:kub-aks-0.5.2
+docker build -t garystafford/voter-api-gateway:kub-aks-0.5.3 .
+docker push garystafford/voter-api-gateway:kub-aks-0.5.3
 ```
 
 Run Locally
