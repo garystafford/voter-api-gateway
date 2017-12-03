@@ -18,10 +18,14 @@ backend voter
     server service_vip voter:8080 check
 ```
 
+Build Image
+
 ```bash
 docker build -t garystafford/voter-api-gateway:kub-aks-0.5.2 .
 docker push garystafford/voter-api-gateway:kub-aks-0.5.2
 ```
+
+Run Locally
 
 ```bash
 docker service create \
